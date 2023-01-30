@@ -20,6 +20,10 @@
     font-size: 24px;
     padding: 10px;
 }
+.card-city{
+    font-size: 18px;
+    font-weight: normal;
+}
 
 .card-text {
     font-size: 14px;
@@ -45,4 +49,5 @@
 
 .button-Card{
     padding-top: 10px;
+    
 }

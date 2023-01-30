@@ -37,6 +37,13 @@ max-width: 800px;
 margin: auto;
     
 }
+.texto{
+    padding-top: 10px;
+    max-width: 800px;
+}
+.texto p{
+    margin-top: 5px;
+}
 
 /* Hero styles */
 
@@ -73,4 +80,22 @@ color: white;
     max-width: 500px;
 }
 
+.registrate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2;
+    padding: 25px;
+    gap: 10px;
+}
+.btn-registrate{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-registrate{
+    width: 100%;
+    object-fit: cover;
+}
 
