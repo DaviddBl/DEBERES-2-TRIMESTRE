@@ -9,8 +9,32 @@
 
 .content{
     width: 100%;
-    min-height: 100%;
-    background-color: red;
+    height: 100%;
+    padding-top: 50px;
+    
+}
+.eventos{
+        width: 100%;
+        height: 50%;
+        display: grid;
+        justify-content: center;
+        grid-column: 3;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 40px 20px 20px 20px ;
+        gap: 10px;
+}
+
+.title-events{
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-events p{
+padding-top: 10px;
+max-width: 800px;
+margin: auto;
     
 }
 
