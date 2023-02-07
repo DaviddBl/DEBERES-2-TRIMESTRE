@@ -2,14 +2,18 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 100%;
     text-align: center;
-    font-family: arial;
     border-radius: 8px;
 }
 
 .card-img-top {
     width: 100%;
-    border-radius: 8px 8px 0 0 ;
-    
+    border-radius: 8px 8px 0 0;
+
+}
+.card-img-city{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }
 
 .card-body {
@@ -20,7 +24,8 @@
     font-size: 24px;
     padding: 10px;
 }
-.card-city{
+
+.card-city {
     font-size: 18px;
     font-weight: normal;
 }
@@ -30,6 +35,7 @@
     height: 100%;
     padding: 10px;
 }
+
 /* 
 .btn {
     border: none;
@@ -47,7 +53,7 @@
     color: white;
 } */
 
-.button-Card{
+.button-Card {
     padding-top: 10px;
-    
+    background: 28a1ed;
 }
