@@ -5,40 +5,32 @@
     <link rel="stylesheet" href="../../../css/forms.css">
     <link rel="stylesheet" href="../../../css/home.css">
     <link rel="stylesheet" href="../../../css/app.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
   </head>
 
   <body>
+    <!-- container form -->
     <div class="flex-container">
-      <div class="caja-1">
-        <header>
-          <h1>Welcome to My Site</h1>
-        </header>
-        <p>Don't have an account? <a href="register-user-evento.html">Sign up
-            here</a></p>
+      <div class="info-form">
+        <div class="overlay-2">
+          <div class="content-form">
+            <h1 class ="title-form">Crea tu cuenta y aprovecha todas las ventajas de nuestra plataforma de venta de entradas en línea</h1>
+          </div>
+        </div>
       </div>
+      <!-- form registro  -->
       <div class="caja-2">
         <form>
-          <label for="Username">Username:</label>
+          <label for="Username">Nombre Usuario</label>
           <input type="text" id="Username" name="Username">
-          <br><br>
           <label for="email">Email:</label>
           <input type="email" id="email" name="email">
-          <br><br>
-          <label for="password">Password:</label>
-          <input type="password" placeholder="Password" id="password"
-            name="password">
-          <br><br>
-          <label for="confirm_password">Confirm Password:</label>
-          <input type="password" placeholder="Confirm Password"
-            id="confirm_password" name="Confirm Password">
-          <br><br>
-          <input type="submit" value="Submit">
+          <label for="password">Contraseña</label>
+          <input type="password" placeholder="Password" id="password" name="password">
+          <label for="confirm_password">Confirmar Contresaña</label>
+          <input type="password" placeholder="Confirm Password" id="confirm_password" name="Confirm Password">
+          <button class="btn-registro" type="submit">Crear Cuenta</button>
         </form>
-
-
       </div>
     </div>
   </body>
